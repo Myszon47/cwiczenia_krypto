@@ -17,4 +17,4 @@ def inverse(b,n):
 		return x % n
 
 print(inverse(mpz(17),mpz(7)))
-print(invert(1001,5))
+print(invert(mpz(-2),mpz(7)))

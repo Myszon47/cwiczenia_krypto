@@ -1,4 +1,8 @@
-from zad3 import exponentation
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from .zad3 import exponentation
 from gmpy2 import mpz, random_state, mpz_random, c_div, is_prime
 
 def miller_rabin(n, k=5):
