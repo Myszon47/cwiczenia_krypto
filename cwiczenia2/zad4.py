@@ -19,4 +19,4 @@ def eliptic_sum(x1, y1, x2, y2, p, A):
 		return float('inf'), float('inf')
  	
 
-#print(eliptic_sum(mpz(0),mpz(1),mpz(0),mpz(6),mpz(7),mpz(1)))
+print(eliptic_sum(mpz(0),mpz(1),mpz(0),mpz(6),mpz(7),mpz(1)))
